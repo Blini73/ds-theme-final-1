@@ -7,6 +7,10 @@
 </head>
 <body <?php body_class(); ?>>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e64e17dd496c32832795032fd220e3da081e2b38
 <header>
     <section class="top-bar">
         <div class="logo">
@@ -17,6 +21,7 @@
         </div>
     </section>    
     <section class="menu-area">
+<<<<<<< HEAD
     <div class="container">
     <nav class="main-menu">
         <button class="check-button"></button>
@@ -38,6 +43,12 @@
 
 
         
+=======
+        <nav class="main-menu">
+           <?php wp_nav_menu(
+            array('theme-location' => 'wp_devs_main_menu', 'depth' => 2)
+           ); ?>
+>>>>>>> e64e17dd496c32832795032fd220e3da081e2b38
         </nav>
     </section>
 </header>
